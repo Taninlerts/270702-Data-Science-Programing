@@ -30,10 +30,6 @@ while pile > 0 :
         #PC condition
         if pile%3 == 0:
             pc = 2
-            if pile == 3 :
-                pc = 2
-            else :
-                pc = 1
         else:
             pc = 1
         
